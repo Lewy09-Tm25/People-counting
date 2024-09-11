@@ -75,9 +75,9 @@ In conclusion, comparing all the three versions might tell use subtle nuances of
 We can implement a Region Of Interest (ROI) selection of a specific part of the video. This would remove the false positives that are being counted, like the trees and the roads. This is also visible with the graphs. We aim to have less fluctuations in the graph with increasing curve, as the people in the video increase. Also, changing the moving_threshold and density_scale_factor, and tweaking them might allow us to reach a convincing measure of the people.
 
 ### Evaluation
-![graph1]("People count vs Time.png")
-![graph2]("People count vs Time (Fixed threshold).png")
-![graph3]("People count vs Time (No Enhancement).png")
+![graph1](./People count vs Time.png)
+![graph2](./People count vs Time (Fixed threshold).png)
+![graph3](./People count vs Time (No Enhancement).png)
 
 | Version Name| Random Number |
 |---------------------------------------------|---------------|
